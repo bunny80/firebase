@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-auth.js"></script>
+    <script src="styles.css">  </script>
+    </head> 
+    <body style="background-color: brown;">
+       <div id="formContainer " style="margin-top: 150px;"> 
+           <div class="container" style="border:black;">
+            <h2 style="margin-left: 500px;color:black;font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold;">Register</h2>
+               <li style="list-style:none">
+           <li  style="list-style:none ; margin-left: 450px; margin-top: 20px;" > <input style="width: 300px; height: 30px;" type="text" placeholder="Enter name" id="name">  </input></li>
+            <li  style="list-style:none;margin-left: 450px; margin-top: 20px;"><input style="width: 300px; height: 30px;" type="email" placeholder="Enter email" id="email"></input></li>
+            <li  style="list-style:none;margin-left: 450px; margin-top: 20px;"><input style="width: 300px; height: 30px;" type="password" placeholder="Enter password" id="password"> </input></li>
+           </li>
+             <button style="margin-left: 535px; margin-top: 30px; width: 80px;background-color: #24a0ed; border-radius: 15px; font-weight: bold;" onclick="signUp()"> Sign Up</button>
+           </div>
+    </div>
+</body>
+</html>
